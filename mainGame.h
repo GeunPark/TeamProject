@@ -8,7 +8,7 @@ class mainGame : public gameNode
 private:
 	char A;
 	bool ssw;
-	
+	int jgh;
 public:
 	HRESULT Init(void);
 	void Release(void);

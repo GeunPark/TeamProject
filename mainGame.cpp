@@ -9,7 +9,7 @@ HRESULT mainGame::Init(void)
 	gameNode::Init(TRUE);
 
 	A = 'a';
-
+	jgh = 1;
 	
 	ssw = true;
 
