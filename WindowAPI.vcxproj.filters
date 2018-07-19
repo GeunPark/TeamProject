@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="GameFramework2D">
+      <UniqueIdentifier>{6ccab452-e864-40f0-80ea-c8d8e56d71bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\Manager">
+      <UniqueIdentifier>{20fe8eab-3d35-4f47-9328-54e75dfa6524}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\MainGame">
+      <UniqueIdentifier>{7ce90b3e-eb04-44b1-a1d0-42f2cb4865d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\MainGame\WinMain">
+      <UniqueIdentifier>{47fc0f62-e015-4799-83d5-74258a0b0114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\Manager\Util">
+      <UniqueIdentifier>{8bd9c847-6c6e-4b2c-a106-d6995659f7dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\Image">
+      <UniqueIdentifier>{b22565e1-631b-4453-ab58-3660679daf7a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>GameFramework2D\Manager\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>GameFramework2D\MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>GameFramework2D\MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="mainGame.h">
+      <Filter>GameFramework2D\MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonBase.h">
+      <Filter>GameFramework2D\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>GameFramework2D\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomFunction.h">
+      <Filter>GameFramework2D\Manager\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>GameFramework2D\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>GameFramework2D\Manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="winMain.cpp">
+      <Filter>GameFramework2D\MainGame\WinMain</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>GameFramework2D\MainGame\WinMain</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>GameFramework2D\MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="mainGame.cpp">
+      <Filter>GameFramework2D\MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>GameFramework2D\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>GameFramework2D\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>GameFramework2D\Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
