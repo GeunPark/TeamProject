@@ -10,6 +10,8 @@ private:
 	bool ssw;
 
 
+	int hoon;
+
 	float speed;
 	
 	int hwa;
@@ -24,4 +26,5 @@ public:
 	mainGame() {}
 	~mainGame() {}
 };
+
 
