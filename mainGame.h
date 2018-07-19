@@ -10,6 +10,9 @@ private:
 	bool ssw;
 
 
+	int sunsooZzang;
+
+
 	int hoon;
 
 	float speed;

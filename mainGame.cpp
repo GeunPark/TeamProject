@@ -11,6 +11,8 @@ HRESULT mainGame::Init(void)
 	A = 'a';
 	jgh = 1;
 	
+
+
 	ssw = true;
 	speed = 0.123f;
 	hoon = 10;
