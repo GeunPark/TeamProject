@@ -12,6 +12,7 @@ HRESULT mainGame::Init(void)
 
 	
 	ssw = true;
+	speed = 0.123f;
 
 	return S_OK;
 }

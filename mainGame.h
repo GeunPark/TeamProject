@@ -8,6 +8,8 @@ class mainGame : public gameNode
 private:
 	char A;
 	bool ssw;
+
+	float speed;
 	
 public:
 	HRESULT Init(void);
