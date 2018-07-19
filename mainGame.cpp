@@ -11,7 +11,7 @@ HRESULT mainGame::Init(void)
 	A = 'a';
 
 	
-	
+	ssw = true;
 
 	return S_OK;
 }
