@@ -12,7 +12,7 @@ private:
 
 	float speed;
 	
-
+	int hwa;
 	int jgh;
 
 public:
