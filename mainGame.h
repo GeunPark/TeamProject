@@ -17,6 +17,8 @@ private:
 	int hwa;
 	int jgh;
 
+	int x;
+
 public:
 	HRESULT Init(void);
 	void Release(void);
