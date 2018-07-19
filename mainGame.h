@@ -6,7 +6,7 @@
 class mainGame : public gameNode
 {
 private:
-	
+	char A;
 	
 public:
 	HRESULT Init(void);
